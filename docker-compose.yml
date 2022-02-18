@@ -55,8 +55,8 @@ services:
     networks:
       - crater
 
-volumes:
-  db:
+#volumes:
+#  db:
 
 networks:
   crater:
