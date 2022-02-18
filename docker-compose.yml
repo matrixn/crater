@@ -4,8 +4,8 @@ services:
   app:
     build:
       args:
-        user: crater-user
-        uid: 1000
+        user: matrixn
+        uid: 1030
       context: ./
       dockerfile: Dockerfile
     image: crater-php
