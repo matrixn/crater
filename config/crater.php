@@ -62,6 +62,7 @@ return [
         ["code" => "lv", "name" => "Latvian"],
         ["code" => "pl", "name" => "Polish"],
         ["code" => "pt_BR", "name" => "Portuguese (Brazilian)"],
+        ["code" => "ro", "name" => "Romanian"],
         ["code" => "sr", "name" => "Serbian Latin"],
         ["code" => "ko", "name" => "Korean"],
         ["code" => "es", "name" => "Spanish"],

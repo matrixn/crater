@@ -181,6 +181,7 @@
 </template>
 
 <script setup>
+import { useI18n } from 'vue-i18n'
 import { useGlobalStore } from '@/scripts/admin/stores/global'
 import { useDebounceFn } from '@vueuse/core'
 import { useRecurringInvoiceStore } from '@/scripts/admin/stores/recurring-invoice'
@@ -203,17 +204,17 @@ const props = defineProps({
     default: false,
   },
 })
-
+const { t } = useI18n()
 const route = useRoute()
 const recurringInvoiceStore = useRecurringInvoiceStore()
 const globalStore = useGlobalStore()
 
 const isLoadingNextDate = ref(false)
 
-const limits = reactive([
-  { label: 'None', value: 'NONE' },
-  { label: 'Date', value: 'DATE' },
-  { label: 'Count', value: 'COUNT' },
+const limits = reactive([ 
+  { label: t('recurring_invoices.limit_none'), value: 'NONE' },
+  { label: t('recurring_invoices.limit_date'), value: 'DATE' },
+  { label: t('recurring_invoices.limit_count'), value: 'COUNT' },
 ])
 
 const isCustomFrequency = computed(() => {

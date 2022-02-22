@@ -476,6 +476,7 @@
     "add_item": "Añadir un elemento",
     "date": "Fecha",
     "limit_by": "Limitar por",
+    "limit_none": "Ninguno",
     "limit_date": "Fecha límite",
     "limit_count": "Número de Límites",
     "count": "Recuento",
@@ -544,7 +545,19 @@
       "hour": "Hora",
       "day_month": "Día del mes",
       "month": "Mes",
-      "day_week": "Día de la semana"
+      "day_week": "Día de la semana",
+      "every_minute": "Every Minute",
+      "every_30_minutes": "Every 30 Minutes",
+      "every_hour": "Every Hour",
+      "every_2_hours": "Every 2 Hour",
+      "twice_day": "Twice A Day",
+      "every_week": "Every Week",
+      "every_15_days": "Every 15 Days",
+      "first_day_month": "First Day Of Month",
+      "every_6_months": "Every 6 Months",
+      "every_year": "Every Year",
+      "custom": "Custom"
+      
     },
     "confirm_delete": "No podrá recuperar esta factura | No podrás recuperar estas facturas",
     "created_message": "Factura recurrente creada con éxito",
